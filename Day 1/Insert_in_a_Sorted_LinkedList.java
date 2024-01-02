@@ -1,11 +1,15 @@
 
-class Node{
-    int data;
-    Node next;
-    Node(int a){  data = a; next = null; }
-}
+class Node
+    {
+        int data;
+        Node next;
+        Node(int d) {data = d; next = null; }
+    }
+public class Insert_in_a_Sorted_LinkedList {
+    
 
-class Count_Nodes_of_LinkedList {
+// sortedInsert method should return the head of the modified linked list.
+
     Node sortedInsert(Node head, int key) {
         // Add your code here.
         Node temp=new Node(key);
@@ -24,4 +28,4 @@ class Count_Nodes_of_LinkedList {
         return head;
     }
 }
-    
+
